@@ -45,9 +45,9 @@ Value : application/json
 ### Json inputs
 ```json
 {
-	"toid": "example@gmail.com",
-	"subject" : "your subject",
-	"message" : " your message"
+    "toid": "example@gmail.com",
+    "subject" : "your subject",
+    "message" : " your message"
 }
 ```
 
