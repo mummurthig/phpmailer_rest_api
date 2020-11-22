@@ -16,12 +16,12 @@ $mail->Port = 587;
 $mail->SMTPAuth=true;
 $mail->SMTPSecure = 'tls';
 
-$mail->Username = 'draspirantchemistry@gmail.com';          // Enter your email here
-$mail->Password = '9486253959';                             // Enter your password
+$mail->Username = 'example@gmail.com';          // Enter your email here
+$mail->Password = 'password';                             // Enter your password
 
-$mail->setFrom('draspirantchemistry@gmail.com', 'Miki');    // Eamil and Name
+$mail->setFrom('example@gmail.com', 'Name');    // Eamil and Name
 $mail->addAddress($to_id);                                  // Add a recipient
-$mail->addReplyTo('draspirantchemistry@gmail.com');
+$mail->addReplyTo('example@gmail.com');
 
 $mail->isHTML(true);
 $mail->Subject  = $subject;
