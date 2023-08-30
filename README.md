@@ -1,4 +1,4 @@
-# phpmailer_rest_api
+# phpmailer Rest API
 ### install phpmailer
 ```php
 Install phpmailer
